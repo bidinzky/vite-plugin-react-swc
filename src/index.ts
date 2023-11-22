@@ -220,7 +220,7 @@ const transformWithOptions = async (
   try {
     result = await transform(code, {
       filename: id,
-      swcrc: false,
+      swcrc: true,
       configFile: false,
       sourceMaps: true,
       jsc: {
